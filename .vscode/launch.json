@@ -2,22 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Attach",
-            "port": 9229,
-            "request": "attach",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
-        },
-
-        {
-            "type": "artificial-workflow",
-            "request": "launch",
-            "name": "Debug Current Workflow File",
-            "program": "${file}"
-        },
-        {
             "name": "Pyright CLI",
             "type": "node",
             "request": "launch",
